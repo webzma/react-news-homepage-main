@@ -1,0 +1,6 @@
+.paragraph {
+  text-align: left;
+  line-height: 1.6;
+  font-size: 14px;
+  color: hsl(236, 13%, 42%);
+}

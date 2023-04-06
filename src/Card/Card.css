@@ -1,0 +1,30 @@
+.card {
+  text-align: left;
+  display: flex;
+  grid-template-columns: 90px auto;
+  grid-template-rows: 1fr;
+  gap: 25px;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardImg {
+  width: 90px;
+}
+
+.cardNumber {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(233, 8%, 79%);
+}
+
+.cardLink {
+  font-weight: bold;
+  font-size: 17px;
+  color: hsl(240, 100%, 5%);
+}

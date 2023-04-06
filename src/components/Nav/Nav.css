@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  padding-top: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  height: 35px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+
+

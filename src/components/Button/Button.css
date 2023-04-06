@@ -1,0 +1,17 @@
+button {
+  outline: none;
+  border: none;
+  display: inline-block;
+  padding: 12px 27px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color:  hsl(5, 85%, 63%);
+  transition: 0.4s background ease-in-out;
+}
+
+button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
